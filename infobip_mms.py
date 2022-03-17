@@ -19,7 +19,6 @@ data = {
 header = {
     'Authorization': 'App {API KEY}'
 }
-print(data['head'])
 
 files = {
     'head': (None, json.dumps(data['head']).encode(),'application/json'),
